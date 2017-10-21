@@ -1,4 +1,4 @@
-language: c
+language: ruby
 sudo: required
 script: ./framework-setup.sh
 env:
@@ -6,3 +6,4 @@ env:
 os:
   - osx
   - linux
+rvm: 2.3
